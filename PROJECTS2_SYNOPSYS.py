@@ -17,7 +17,7 @@ class Employee:
             return gross_salary * 0.20  # 20% tax
 
     def calculate_deductions(self, gross_salary):
-        # Example: fixed health insurance + tax
+       
         health_insurance = 100
         tax = self.calculate_tax(gross_salary)
         return tax + health_insurance
@@ -42,7 +42,7 @@ class Employee:
         print(f"Tax Deducted  : ${tax:.2f}")
         print(f"Other Deductions (e.g. Health): ${deductions - tax:.2f}")
         print(f"Net Salary    : ${net:.2f}")
-        print("--------------------")
+        
 
 
 
