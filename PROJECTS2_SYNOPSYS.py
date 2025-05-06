@@ -40,7 +40,7 @@ class Employee:
         print(f"Hourly Rate   : ${self.hourly_rate:.2f}")
         print(f"Gross Salary  : ${gross:.2f}")
         print(f"Tax Deducted  : ${tax:.2f}")
-        print(f"Other Deductions (e.g. Health): ${deductions - tax:.2f}")
+        print(f"Other Deductions (Health insurance): ${deductions - tax:.2f}")
         print(f"Net Salary    : ${net:.2f}")
         
 
